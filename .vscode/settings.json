@@ -1,0 +1,9 @@
+{
+    "maven.view": "flat",
+    "maven.terminal.useJavaHome": true,
+    "java.project.sourcePaths": [
+        "CSE565-softwaretesting/project1/src/main/java",
+        "CSE565-softwaretesting/project1",
+        "CSE565-softwaretesting/project4/src/main/java"
+    ]
+}

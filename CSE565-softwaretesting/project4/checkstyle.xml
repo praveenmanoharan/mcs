@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+    "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+    "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+    <module name="TreeWalker">
+
+        <!-- Enforce using .equals() for string comparison -->
+        <module name="EqualsAvoidNull"/>
+
+        <!-- Disallow unused local variables -->
+        <module name="UnusedLocalVariable"/>
+
+        <!-- Enforce variable naming conventions -->
+        <module name="LocalVariableName"/>
+
+        <!-- Enforce class naming conventions -->
+        <module name="TypeName"/>
+
+        <!-- Enforce method naming conventions -->
+        <module name="MethodName"/>
+
+        <!-- Enforce constant naming conventions -->
+        <module name="ConstantName"/>
+
+        <!-- Disallow magic numbers -->
+        <!-- <module name="MagicNumber">
+            <property name="ignoreNumbers" value="-1,0,1,25,20,45,5,10,2,15"/>
+        </module> -->
+
+        <!-- Enforce indentation -->
+        <!-- <module name="Indentation">
+            <property name="basicOffset" value="4"/>
+            <property name="braceAdjustment" value="0"/>
+            <property name="caseIndent" value="4"/>
+            <property name="tabWidth" value="4"/>
+        </module> -->
+
+        <!-- Enforce whitespace rules -->
+        <!-- <module name="WhitespaceAfter"/>
+        <module name="WhitespaceAround"/> -->
+
+        <!-- Enforce Javadoc for classes and methods -->
+        <module name="JavadocType"/>
+
+        <module name="JavadocMethod"/>
+
+        <module name="UnusedLocalVariable"/>
+        <module name="EqualsAvoidNull"/>
+        <module name="UnusedImports"/>
+        <module name="StringLiteralEquality"/>
+
+    </module>
+</module>

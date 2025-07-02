@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="/Users/praveen/sandbox/mcs/CSE565-softwaretesting/project4/src/main/java/VendingMachine.java">
+<error line="13" column="18" severity="error" message="Literal Strings should be compared using equals(), not &apos;==&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.StringLiteralEqualityCheck"/>
+<error line="15" column="18" severity="error" message="Literal Strings should be compared using equals(), not &apos;==&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.StringLiteralEqualityCheck"/>
+<error line="17" column="18" severity="error" message="Literal Strings should be compared using equals(), not &apos;==&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.StringLiteralEqualityCheck"/>
+</file>
+<file name="/Users/praveen/sandbox/mcs/CSE565-softwaretesting/project4/src/main/java/StaticAnalysis.java">
+<error line="16" column="9" severity="error" message="Unused local variable &apos;weight&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.UnusedLocalVariableCheck"/>
+<error line="17" column="9" severity="error" message="Unused local variable &apos;length&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.UnusedLocalVariableCheck"/>
+<error line="25" column="20" severity="error" message="Literal Strings should be compared using equals(), not &apos;==&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.StringLiteralEqualityCheck"/>
+</file>
+</checkstyle>
